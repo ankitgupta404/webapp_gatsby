@@ -1,0 +1,9 @@
+body, html, #___gatsby, #gatsby-focus-wrapper {
+    background-color: #000000;
+    height: 100%;
+    margin: 0em;
+  }
+
+body {
+    margin: 0px;
+}

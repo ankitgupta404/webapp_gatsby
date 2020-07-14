@@ -1,10 +1,16 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `About Ankit Gupta`,
+    description: `Resume of Technologist with over 13 years of experience`,
+    author: `Ankit Gupta`,
+  },
+  plugins: [
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    'gatsby-plugin-react-helmet',
+  ],
 }
